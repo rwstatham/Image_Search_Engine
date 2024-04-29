@@ -33,7 +33,7 @@ def init_schema():
                     {
                         "name": "animal", #what animal is depicted in the image
                         "dataType": ["string"],
-                        "description": "name of dog breed",
+                        "description": "name of animal",
                     },
                     {
                         "name": "image",
