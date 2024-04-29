@@ -43,7 +43,7 @@ def import_data():
             #b64_encoding = b64_encoding.replace("\n", "").replace(" ", "") 
 
 
-            # remove image file extension and swap - for " " to get the breed name
+            # remove image file extension and swap - for " " to get the animal name
             animal = re.sub(".(jpg|jpeg|png)", "", file_path).split("-")[0]
             animal = animal.replace("_", " ")
             # The properties from our schema
