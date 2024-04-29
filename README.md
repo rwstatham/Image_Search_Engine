@@ -51,6 +51,12 @@ Below, we discuss all programs present in the repository and discuss their uses.
     <li>Folder of images held out for querying.</li>
   </ul>
 </ul>
+<h3>Usage</h3>
+Run full_init.py to initialize the database (i.e., to vectorize the data and load it into the database): 
+<pre>python full_init.py</pre>
+Next, change the filepath, description, and number of results in lines 4, 5, and 6 of query_image.py to the filepath and animal type of the query image you wish to search the database with, and the number of results you would like the engine to output, then run query_image:
+<pre>python query_image.py</pre>
+<b>Note:</b> The results can be found in the <var>Results</var> folder stored in the root directory. 
 
 
 
